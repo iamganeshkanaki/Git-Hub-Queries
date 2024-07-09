@@ -1,0 +1,33 @@
+Configure Username and Email: 
+  --> git config --global user.name = "Your Name"
+  --> git config --global user.email = "example@gmail.com"
+
+Cloning Repository:
+  --> git clone https://url/of/repository
+  --> cd repository
+
+Create a Brach
+  --> git checkout -b <branch_name>
+
+Staging Changes:
+  for All files:
+    --> git add .
+  for specific fies:
+    --> git add file1 file2 ...
+Commit the changes:
+  --> git commit -m "your commit string"
+
+
+Push the changes into branch:
+  --> git push origin <new-branch> or <Existing branch>
+
+
+Pull the code from another branch
+  --> git pull origin <name-branch>
+      then --> Enter ↵ -> ESC -> wq -> again Enter
+  after that
+  and execut the push command git above
+
+
+
+
